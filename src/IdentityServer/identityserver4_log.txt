@@ -1,0 +1,227 @@
+2020-10-02 20:52:17.735 +05:30 [INF] Starting host...
+2020-10-02 20:52:45.190 +05:30 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-10-02 20:52:47.027 +05:30 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-10-02 20:52:47.028 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-10-02 20:52:47.029 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-10-02 20:52:47.029 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-10-02 20:52:47.030 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-10-02 20:52:47.031 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-10-02 20:52:49.866 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-10-02 20:52:52.495 +05:30 [DBG] Login Url: /Account/Login
+2020-10-02 20:52:52.496 +05:30 [DBG] Login Return Url Parameter: ReturnUrl
+2020-10-02 20:52:52.496 +05:30 [DBG] Logout Url: /Account/Logout
+2020-10-02 20:52:52.496 +05:30 [DBG] ConsentUrl Url: /consent
+2020-10-02 20:52:52.496 +05:30 [DBG] Consent Return Url Parameter: returnUrl
+2020-10-02 20:52:52.496 +05:30 [DBG] Error Url: /home/error
+2020-10-02 20:52:52.496 +05:30 [DBG] Error Id Parameter: errorId
+2020-10-02 20:52:52.730 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:52:52.789 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:52:52.888 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:53:18.011 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:53:18.012 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:53:18.014 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:53:18.093 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-10-02 20:53:18.218 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:53:18.221 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:53:18.222 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:54:32.757 +05:30 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-02 20:54:32.761 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:54:32.762 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:54:32.762 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:54:49.742 +05:30 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"8000002c-0001-fc00-b63f-84710c7967bb","TimeStamp":"2020-10-02T15:24:49.0000000Z","ProcessId":968,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-10-02 20:55:02.811 +05:30 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-02 20:55:02.822 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:55:02.826 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:55:02.828 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:55:03.051 +05:30 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"8000001e-0000-fa00-b63f-84710c7967bb","TimeStamp":"2020-10-02T15:25:03.0000000Z","ProcessId":968,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-10-02 20:55:36.856 +05:30 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-02 20:55:36.872 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:55:36.872 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:55:36.872 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:55:37.109 +05:30 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"80000020-0000-fa00-b63f-84710c7967bb","TimeStamp":"2020-10-02T15:25:37.0000000Z","ProcessId":968,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-10-02 20:55:50.637 +05:30 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-02 20:55:50.639 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:55:50.640 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:55:50.641 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:55:50.659 +05:30 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"8000002e-0001-fc00-b63f-84710c7967bb","TimeStamp":"2020-10-02T15:25:50.0000000Z","ProcessId":968,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-10-02 20:57:10.316 +05:30 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-02 20:57:10.332 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:57:10.332 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 20:57:10.333 +05:30 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-10-02 21:01:43.905 +05:30 [INF] Starting host...
+2020-10-02 21:01:56.484 +05:30 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-10-02 21:01:57.668 +05:30 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-10-02 21:01:57.669 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-10-02 21:01:57.669 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-10-02 21:01:57.669 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-10-02 21:01:57.670 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-10-02 21:01:57.670 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-10-02 21:01:58.904 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-10-02 21:01:59.498 +05:30 [DBG] Login Url: /Account/Login
+2020-10-02 21:01:59.499 +05:30 [DBG] Login Return Url Parameter: ReturnUrl
+2020-10-02 21:01:59.499 +05:30 [DBG] Logout Url: /Account/Logout
+2020-10-02 21:01:59.499 +05:30 [DBG] ConsentUrl Url: /consent
+2020-10-02 21:01:59.499 +05:30 [DBG] Consent Return Url Parameter: returnUrl
+2020-10-02 21:01:59.499 +05:30 [DBG] Error Url: /home/error
+2020-10-02 21:01:59.500 +05:30 [DBG] Error Id Parameter: errorId
+2020-10-02 21:02:35.746 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-10-02 21:02:43.490 +05:30 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-02 21:03:14.503 +05:30 [WRN] Invalid password for user 1.
+2020-10-02 21:03:14.509 +05:30 [WRN] User 1 failed to provide the correct password.
+2020-10-02 21:03:15.413 +05:30 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"8000000f-0001-ed00-b63f-84710c7967bb","TimeStamp":"2020-10-02T15:33:15.0000000Z","ProcessId":16500,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-10-02 21:03:31.710 +05:30 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-02 21:03:32.868 +05:30 [DBG] Augmenting SignInContext
+2020-10-02 21:03:32.871 +05:30 [DBG] Adding idp claim with value: local
+2020-10-02 21:03:32.903 +05:30 [DBG] Adding auth_time claim with value: 1601652812
+2020-10-02 21:03:33.085 +05:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-10-02 21:03:33.094 +05:30 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000022-0000-fa00-b63f-84710c7967bb","TimeStamp":"2020-10-02T15:33:33.0000000Z","ProcessId":16500,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-10-02 21:03:33.389 +05:30 [DBG] 0 persisted grants found for 1
+2020-10-02 21:03:44.761 +05:30 [DBG] Augmenting SignInContext
+2020-10-02 21:03:44.761 +05:30 [DBG] Adding idp claim with value: local
+2020-10-02 21:03:44.762 +05:30 [DBG] Adding auth_time claim with value: 1601652824
+2020-10-02 21:03:44.765 +05:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-10-02 21:03:56.225 +05:30 [WRN] Change password failed for user 1.
+2020-10-02 21:04:00.116 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2020-10-02 21:04:04.258 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: IDX20803: Unable to obtain configuration from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+ ---> System.IO.IOException: IDX20807: Unable to retrieve document from: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. HttpResponseMessage: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsyncInternal(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectHandler.HandleChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.ChallengeAsync(AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events)
+   at IdentityServer4.Hosting.MutualTlsTokenEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-10-02 21:04:27.755 +05:30 [INF] User with ID '1' asked for their personal data.
+2020-10-02 21:04:57.887 +05:30 [WRN] Invalid password for user 1.
+2020-10-02 21:05:01.871 +05:30 [INF] AuthenticationScheme: Identity.Application signed out.
+2020-10-02 21:05:01.872 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2020-10-02 21:05:01.873 +05:30 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-10-02 21:05:01.873 +05:30 [INF] User with ID '1' deleted themselves.
+2020-10-02 21:05:07.339 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-10-02 21:05:08.594 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-10-02 21:05:55.977 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2020-10-02 21:10:16.939 +05:30 [INF] Starting host...
+2020-10-02 21:10:23.573 +05:30 [INF] Starting IdentityServer4 version 3.1.0.0
+2020-10-02 21:10:24.060 +05:30 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-10-02 21:10:24.060 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-10-02 21:10:24.060 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-10-02 21:10:24.061 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-10-02 21:10:24.061 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-10-02 21:10:24.061 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-10-02 21:10:24.827 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-10-02 21:10:25.179 +05:30 [DBG] Login Url: /Account/Login
+2020-10-02 21:10:25.179 +05:30 [DBG] Login Return Url Parameter: ReturnUrl
+2020-10-02 21:10:25.179 +05:30 [DBG] Logout Url: /Account/Logout
+2020-10-02 21:10:25.180 +05:30 [DBG] ConsentUrl Url: /consent
+2020-10-02 21:10:25.180 +05:30 [DBG] Consent Return Url Parameter: returnUrl
+2020-10-02 21:10:25.181 +05:30 [DBG] Error Url: /home/error
+2020-10-02 21:10:25.181 +05:30 [DBG] Error Id Parameter: errorId
+2020-10-02 21:12:22.300 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-10-02 21:12:56.939 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2020-10-02 21:16:12.353 +05:30 [INF] User created a new account with password.
+2020-10-02 21:16:17.166 +05:30 [DBG] Augmenting SignInContext
+2020-10-02 21:16:17.172 +05:30 [DBG] Adding idp claim with value: local
+2020-10-02 21:16:17.173 +05:30 [DBG] Adding amr claim with value: pwd
+2020-10-02 21:16:17.173 +05:30 [DBG] Adding auth_time claim with value: 1601653577
+2020-10-02 21:16:17.303 +05:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-10-02 21:16:24.037 +05:30 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-02 21:16:24.078 +05:30 [INF] AuthenticationScheme: Identity.Application signed out.
+2020-10-02 21:16:24.079 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2020-10-02 21:16:24.081 +05:30 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-10-02 21:16:24.191 +05:30 [INF] {"SubjectId":"dc3f94c0-a091-4aeb-b6b0-ec80575d38a9","DisplayName":"ankit.saharsa@gmail.com","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"8000001d-0000-fb00-b63f-84710c7967bb","TimeStamp":"2020-10-02T15:46:24.0000000Z","ProcessId":17444,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-10-02 21:16:45.827 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2020-10-02 21:17:11.873 +05:30 [WRN] User dc3f94c0-a091-4aeb-b6b0-ec80575d38a9 cannot sign in without a confirmed email.
+2020-10-02 21:17:50.960 +05:30 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-02 21:17:51.479 +05:30 [INF] {"Username":"ankit.saharsa@gmail.com","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"80000036-0001-ed00-b63f-84710c7967bb","TimeStamp":"2020-10-02T15:47:51.0000000Z","ProcessId":17444,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-10-02 22:37:16.273 +05:30 [INF] Starting host...
+2020-10-02 22:37:35.526 +05:30 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-10-02 22:37:40.103 +05:30 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-10-02 22:37:40.104 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-10-02 22:37:40.104 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-10-02 22:37:40.105 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-10-02 22:37:40.105 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-10-02 22:37:40.105 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-10-02 22:37:44.598 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-10-02 22:37:46.045 +05:30 [DBG] Login Url: /Account/Login
+2020-10-02 22:37:46.045 +05:30 [DBG] Login Return Url Parameter: ReturnUrl
+2020-10-02 22:37:46.046 +05:30 [DBG] Logout Url: /Account/Logout
+2020-10-02 22:37:46.046 +05:30 [DBG] ConsentUrl Url: /consent
+2020-10-02 22:37:46.049 +05:30 [DBG] Consent Return Url Parameter: returnUrl
+2020-10-02 22:37:46.050 +05:30 [DBG] Error Url: /home/error
+2020-10-02 22:37:46.050 +05:30 [DBG] Error Id Parameter: errorId
+2020-10-02 22:38:54.059 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-10-03 11:46:02.403 +05:30 [INF] Starting host...
+2020-10-03 11:46:39.089 +05:30 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-10-03 11:46:44.744 +05:30 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-10-03 11:46:44.745 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-10-03 11:46:44.745 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-10-03 11:46:44.746 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-10-03 11:46:44.746 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-10-03 11:46:44.746 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-10-03 11:46:50.533 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-10-03 11:46:52.105 +05:30 [DBG] Login Url: /Account/Login
+2020-10-03 11:46:52.106 +05:30 [DBG] Login Return Url Parameter: ReturnUrl
+2020-10-03 11:46:52.106 +05:30 [DBG] Logout Url: /Account/Logout
+2020-10-03 11:46:52.106 +05:30 [DBG] ConsentUrl Url: /consent
+2020-10-03 11:46:52.108 +05:30 [DBG] Consent Return Url Parameter: returnUrl
+2020-10-03 11:46:52.109 +05:30 [DBG] Error Url: /home/error
+2020-10-03 11:46:52.109 +05:30 [DBG] Error Id Parameter: errorId
+2020-10-03 11:46:59.556 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-10-03 11:47:12.399 +05:30 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-03 11:47:25.006 +05:30 [WRN] Invalid password for user 1.
+2020-10-03 11:47:25.009 +05:30 [WRN] User 1 failed to provide the correct password.
+2020-10-03 11:47:25.812 +05:30 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"80000030-0000-da00-b63f-84710c7967bb","TimeStamp":"2020-10-03T06:17:25.0000000Z","ProcessId":16564,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-10-03 11:48:10.339 +05:30 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-03 11:48:10.548 +05:30 [WRN] Invalid password for user 1.
+2020-10-03 11:48:10.548 +05:30 [WRN] User 1 failed to provide the correct password.
+2020-10-03 11:48:10.583 +05:30 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"8000003a-0001-fc00-b63f-84710c7967bb","TimeStamp":"2020-10-03T06:18:10.0000000Z","ProcessId":16564,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-10-03 11:52:22.936 +05:30 [INF] Starting host...
+2020-10-03 11:52:39.224 +05:30 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-10-03 11:52:40.946 +05:30 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-10-03 11:52:40.947 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-10-03 11:52:40.947 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-10-03 11:52:40.949 +05:30 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-10-03 11:52:40.949 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-10-03 11:52:40.949 +05:30 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-10-03 11:52:42.859 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-10-03 11:52:43.495 +05:30 [DBG] Login Url: /Account/Login
+2020-10-03 11:52:43.496 +05:30 [DBG] Login Return Url Parameter: ReturnUrl
+2020-10-03 11:52:43.496 +05:30 [DBG] Logout Url: /Account/Logout
+2020-10-03 11:52:43.497 +05:30 [DBG] ConsentUrl Url: /consent
+2020-10-03 11:52:43.497 +05:30 [DBG] Consent Return Url Parameter: returnUrl
+2020-10-03 11:52:43.497 +05:30 [DBG] Error Url: /home/error
+2020-10-03 11:52:43.497 +05:30 [DBG] Error Id Parameter: errorId
+2020-10-03 11:52:47.770 +05:30 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-10-03 11:52:59.619 +05:30 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-03 11:53:55.956 +05:30 [DBG] Augmenting SignInContext
+2020-10-03 11:53:55.960 +05:30 [DBG] Adding idp claim with value: local
+2020-10-03 11:53:55.977 +05:30 [DBG] Adding auth_time claim with value: 1601706235
+2020-10-03 11:53:56.159 +05:30 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-10-03 11:54:18.814 +05:30 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"1","DisplayName":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"80000032-0000-da00-b63f-84710c7967bb","TimeStamp":"2020-10-03T06:24:18.0000000Z","ProcessId":14032,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-10-03 11:55:43.506 +05:30 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-10-03 11:55:43.561 +05:30 [INF] AuthenticationScheme: Identity.Application signed out.
+2020-10-03 11:55:43.564 +05:30 [INF] AuthenticationScheme: Identity.External signed out.
+2020-10-03 11:55:43.571 +05:30 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-10-03 11:55:43.574 +05:30 [INF] {"SubjectId":"1","DisplayName":"Alice Smith","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"8000003d-0000-da00-b63f-84710c7967bb","TimeStamp":"2020-10-03T06:25:43.0000000Z","ProcessId":14032,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-10-03 11:55:43.596 +05:30 [DBG] SignOutCalled set; processing post-signout session cleanup.

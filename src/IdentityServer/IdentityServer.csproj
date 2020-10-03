@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="6.0.0" />
+	<PackageReference Include="Finbuckle.MultiTenant.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="IdentityServer4" Version="4.1.0" />
+    <PackageReference Include="IdentityServer4.AspNetIdentity" Version="4.1.0" />
+    <PackageReference Include="IdentityServer4.EntityFramework" Version="4.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.8" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4" />
+
+	  <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Okta.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="Sendgrid" Version="9.21.0" />
+
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
+    <Folder Include="Multitenant\" />
+    <Folder Include="wwwroot\lib\qrcode\" />
+  </ItemGroup>
+</Project>
